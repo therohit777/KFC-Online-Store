@@ -1,0 +1,28 @@
+.sec{
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3px 0;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.sec1{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:3vw;
+    padding-top: 25px;
+
+}
+li{
+    list-style: none;
+}

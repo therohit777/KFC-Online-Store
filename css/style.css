@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+
+    height: 15vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color: black;
+    display:flex;
+}
+.logo{
+    padding-right: 3vw;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+
+    padding: 30px 20px; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    height: calc(100% - 15vh - 12vh);
+}
+.container1{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    padding:5vh 0 ;
+    border-radius: 5px;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:25px 0 15px 0;
+}
+
+.abc{
+    display: flex;
+    padding-top: 1.5vw;
+    justify-content: center;
+}
+
+.container3{
+    padding-top: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3vw;
+ 
+}
+
+
+.c1{
+    padding: 0 0 60px 0;
+}
+.c1 img{
+    width: 55vh;
+}
+.c2{
+    color: white;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(238, 36, 0, 0.733);
+    padding: 4px 10px;
+    border-radius: 40px;
+    
+}
+
+.d1 input{
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px 0 ;
+}
+.mota{
+    font-size: 1.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2vw;
+
+}
+
+button{
+    margin: 20px;
+    padding: 0.5vw 2vw;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(17, 3, 3, 0.966);
+}
+
+
+
+
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
